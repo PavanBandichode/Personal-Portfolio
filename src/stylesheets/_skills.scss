@@ -1,0 +1,59 @@
+//skills card
+.skill-page {
+  background-color: black;
+  padding: 2rem 0;
+  h1 {
+    color: rgb(133, 0, 71);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  h3 {
+    color: aqua;
+    font-size: 1.6rem;
+    padding: 1.2rem 0;
+  }
+}
+.skills-card {
+  padding: 0.7rem;
+  margin-right: 2rem;
+  background-color: rgb(151, 148, 148);
+  overflow: hidden;
+  transition-duration: 1s;
+  transition-property: transform;
+  &:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    .skills-card__name {
+      color: aqua;
+    }
+  }
+
+  .skills-card__img-div {
+    height: 4rem;
+    max-width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
+
+    &:hover {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .skills-card__name-div {
+    text-align: center;
+  }
+  .skills-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+  }
+}

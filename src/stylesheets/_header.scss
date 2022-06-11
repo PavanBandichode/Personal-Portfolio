@@ -1,0 +1,83 @@
+.header {
+  position: sticky;
+  font-family: "Bebas Neue", cursive;
+  top: 0;
+  padding: 0.6rem 0;
+  background-color: $primary;
+  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.027);
+  z-index: 1000;
+  .brand-name {
+    font-size: 2rem;
+    span {
+      background-color: rgb(133, 0, 71);
+      color: wheat;
+      padding: 0.4rem 1rem;
+      border-radius: 20%;
+    }
+  }
+  a {
+    color: $secondary;
+  }
+  nav,
+  #toggle {
+    display: none;
+  }
+  .grid {
+    grid-template-columns: auto auto;
+    justify-items: space-between;
+    align-items: center;
+    label {
+      justify-self: end;
+      font-size: 1.5rem;
+    }
+  }
+  #toggle:checked ~ nav {
+    padding: 1rem 0;
+    background-color: $primary;
+    width: 100vw;
+    display: grid;
+    position: absolute;
+    top: 100%;
+    justify-items: center;
+    left: 0;
+    ul {
+      text-align: center;
+    }
+    li {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+  button {
+    text-transform: uppercase;
+    background-color: rgb(133, 0, 71);
+    a {
+      color: $white;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .header {
+    nav {
+      display: block;
+      ul {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: end;
+        gap: 2rem;
+      }
+      li {
+        transition: all 0.25s linear;
+        &:hover {
+          transform: scale(1.1, 1.1);
+        }
+      }
+    }
+    label {
+      display: none;
+    }
+  }
+}

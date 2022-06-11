@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #efeff0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+a {
+  text-decoration: none;
+}
+.grid {
+  display: grid;
+}
+.btn {
+  padding: 1em 2em;
+  border-radius: 0.5rem;
+  border: none;
+}
+.flex {
+  display: flex;
+}
+.flex-30 {
+  flex: 0 1 30%;
+}
+.flex-60 {
+  flex: 0 1 60%;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+//   .flex-30 {
+//     flex: 0 1 25%;
+//   }
+//   .flex-70 {
+//     flex: 0 1 75%;
+//   }
+.flex-48 {
+  flex: 0 1 48%;
+  margin: 1%;
+}
+.flex-20 {
+  flex: 0 1 16%;
+}
+.justify {
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+strong {
+  font-weight: 900;
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 900px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 24px;
+  }
+}

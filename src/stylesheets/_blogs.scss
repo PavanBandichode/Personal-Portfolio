@@ -1,0 +1,61 @@
+//blog card
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 700;
+  color: rgb(133, 0, 71);
+}
+.blog-container {
+  margin-bottom: 3rem;
+}
+.card-blog {
+  background-color: rgb(213, 198, 198);
+  padding: 0.8rem;
+}
+.blog-card {
+  position: relative;
+  overflow: hidden;
+
+  .posted-on {
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    transform: rotate(45deg);
+    padding: 0.2rem 3rem;
+    background-color: rgba(202, 193, 193, 0.1);
+    color: white;
+    font-size: 0.8rem;
+  }
+  .blog-card__img-div {
+    height: 8rem;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  a {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    width: fit-content;
+    // color: $pri;
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.692);
+      color: black;
+    }
+  }
+}
+@media all and (max-width: 768px) {
+  .media-flex-48 {
+    flex: 0 1 100%;
+    margin-bottom: 0.7rem;
+  }
+}

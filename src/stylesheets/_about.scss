@@ -11,3 +11,17 @@
     font-size: 1.6rem;
   }
 }
+
+@media all and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    .flex-30 {
+      margin-bottom: 1rem;
+
+      img {
+        width: 300px;
+        text-align: center;
+      }
+    }
+  }
+}

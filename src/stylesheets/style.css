@@ -431,6 +431,15 @@ strong {
   background: none;
 }
 
+@media all and (max-width: 478px) {
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+}
+
 .about {
   padding: 1rem 0;
   margin-bottom: 2rem;
@@ -445,6 +454,22 @@ strong {
 
 .about p {
   font-size: 1.6rem;
+}
+
+@media all and (max-width: 768px) {
+  .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flex .flex-30 {
+    margin-bottom: 1rem;
+  }
+  .flex .flex-30 img {
+    width: 300px;
+    text-align: center;
+  }
 }
 
 .skill-page {
@@ -519,6 +544,15 @@ strong {
   font-size: 1rem;
   font-weight: 700;
   color: black;
+}
+
+@media all and (max-width: 768px) {
+  .flex-20 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 38%;
+            flex: 0 1 38%;
+    margin-bottom: 1rem;
+  }
 }
 
 /* contact section styling */
@@ -650,6 +684,52 @@ h4 {
 .blog-card a:hover {
   background-color: rgba(255, 255, 255, 0.692);
   color: black;
+}
+
+@media all and (max-width: 768px) {
+  .media-flex-48 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin-bottom: 0.7rem;
+  }
+}
+
+.project-container {
+  margin-bottom: 2rem;
+}
+
+.project-container .project-card {
+  background-color: #cdc0cd;
+  padding: 1rem;
+}
+
+.project-container .posted-on {
+  color: red;
+}
+
+.project-card .project-card__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 3px solid chocolate;
+}
+
+.project-card .tech-stack-div {
+  margin-top: 0.5rem;
+}
+
+.project-card .tech-stack-div span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.project-card .tech-stack-div .tech {
+  margin: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: chocolate;
 }
 
 @media all and (max-width: 768px) {

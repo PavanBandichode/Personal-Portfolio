@@ -7,7 +7,7 @@ function About(props) {
         <h1>About me...</h1>
         <div className="flex justify">
           <figure className="flex-30">
-            <img src="./Images/pavan.jpg"></img>
+            <img src="./Images/pavan.jpg" alt="pavan"></img>
           </figure>
           <div className="flex-60">
             <p>

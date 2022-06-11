@@ -62,3 +62,11 @@
   color: rgb(133, 0, 71);
   background: none;
 }
+@media all and (max-width: 478px) {
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+}

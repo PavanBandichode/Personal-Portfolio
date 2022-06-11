@@ -1,0 +1,38 @@
+.project-container {
+  .project-card {
+    background-color: rgb(205, 192, 205);
+    padding: 1rem;
+  }
+  margin-bottom: 2rem;
+  .posted-on {
+    color: red;
+  }
+}
+.project-card {
+  .project-card__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 3px solid chocolate;
+  }
+  .tech-stack-div {
+    margin-top: 0.5rem;
+    span {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    .tech {
+      margin: 0.2rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+      border: 1px solid red;
+      border-radius: 10px;
+      color: chocolate;
+    }
+  }
+}
+@media all and (max-width: 768px) {
+  .media-flex-48 {
+    flex: 0 1 100%;
+    margin-bottom: 0.7rem;
+  }
+}

@@ -57,3 +57,9 @@
     color: black;
   }
 }
+@media all and (max-width: 768px) {
+  .flex-20 {
+    flex: 0 1 38%;
+    margin-bottom: 1rem;
+  }
+}

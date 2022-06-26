@@ -31,7 +31,7 @@ export default function Header() {
             </li>
             <li class="nav-menu-item">
               <button class="btn">
-                <a href="./My-Resume.pdf" download="Resume" class="nav-link">
+                <a href="./My-Resume6.pdf" download="Resume" class="nav-link">
                   download cv
                 </a>
               </button>

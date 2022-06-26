@@ -128,7 +128,7 @@ const data = {
         {
           name: "VS Code",
           image:
-            "https://pbs.twimg.com/profile_images/1410632439370641409/Pt-7RucE.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
         },
         {
           name: "NPM",
@@ -217,7 +217,7 @@ const data = {
       hostedOn: "On Vercel",
     },
     {
-      title: "Counter App With Redux",
+      title: "Flexor",
       image: "./Images/flexor.png",
       url: "https://pavanbandichode.github.io/checkpoint4/",
       TechStack: ["HTML", "SCSS"],
